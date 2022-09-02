@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DS-Meta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="dsmeta-header">
+      <img src="static/logo.svg" alt="DS-Meta">
+      <h1>DS-Meta</h1>
+      <p>Desenvolvido por 
+        <a href="https://github.com/LexTOliver">Alexandre Oliveira</a>
+      </p>
+    </div>
+  </header>
+  <main>
+    <section id="sales">
+      <div class="dsmeta-container">
+        <div class="dsmeta-card">
+          <h2 class="dsmeta-card-title">Vendas</h2>
+          <div>
+            <div class="dsmeta-form-input-container">
+              <input class="dsmeta-form-input" type="date" name="data-inicio" id="">
+            </div>
+            <div class="dsmeta-form-input-container">
+              <input class="dsmeta-form-input" type="date" name="data-fim" id="">
+            </div>
+          </div>
+          <div>
+            <table class="dsmeta-table">
+              <thead>
+                <tr>
+                  <th class="dsmeta-largedisplay-content">ID</th>
+                  <th class="dsmeta-mediumdisplay-content">Data</th>
+                  <th>Vendedor</th>
+                  <th class="dsmeta-largedisplay-content">Visitas</th>
+                  <th class="dsmeta-largedisplay-content">Vendas</th>
+                  <th>Total</th>
+                  <th>Notificar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="dsmeta-largedisplay-content">#001</td>
+                  <td class="dsmeta-mediumdisplay-content">28/06/2022</td>
+                  <td>Anakin</td>
+                  <td class="dsmeta-largedisplay-content">15</td>
+                  <td class="dsmeta-largedisplay-content">35</td>
+                  <td>R$123456,00</td>
+                  <td>
+                    <div class="dsmeta-red-btn-container">
+                      <div class="dsmeta-red-btn">
+                        <img src="static/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr id="exemplo2">
+                  <td class="dsmeta-largedisplay-content">#002</td>
+                  <td class="dsmeta-mediumdisplay-content">28/08/2022</td>
+                  <td>Vader</td>
+                  <td class="dsmeta-largedisplay-content">35</td>
+                  <td class="dsmeta-largedisplay-content">48</td>
+                  <td>R$654321,00</td>
+                  <td>
+                    <div class="dsmeta-red-btn-container">
+                      <div class="dsmeta-red-btn">
+                        <img src="static/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr id="exemplo3">
+                  <td class="dsmeta-largedisplay-content">#003</td>
+                  <td class="dsmeta-mediumdisplay-content">25/08/2022</td>
+                  <td>Raimundo</td>
+                  <td class="dsmeta-largedisplay-content">1000</td>
+                  <td class="dsmeta-largedisplay-content">1000</td>
+                  <td>R$456123,00</td>
+                  <td>
+                    <div class="dsmeta-red-btn-container">
+                      <div class="dsmeta-red-btn">
+                        <img src="static/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
