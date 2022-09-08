@@ -16,3 +16,14 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+#sales {
+  padding-top: 40px;
+  padding-inline: 5%;
+}
+
+.dsmeta-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}

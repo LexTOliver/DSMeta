@@ -1,0 +1,17 @@
+header {
+  height: 220px;
+  background: linear-gradient(180deg, #000 0%, #024189 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dsmeta-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsmeta-header img {
+  width: 235px;
+}
