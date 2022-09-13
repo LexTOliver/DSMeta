@@ -2,6 +2,7 @@ package com.lexoliver.dsmeta.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,10 +25,9 @@ public class SaleController {
   public Page<Sale> findSales(
       @RequestParam(value = "minDate", defaultValue = "", required = false) String minDate,
       @RequestParam(value = "maxDate", defaultValue = "", required = false) String maxDate,
-      @RequestParam(value = "page", defaultValue = "0", required = false) String page,
-      @RequestParam(value = "size", defaultValue = "20", required = false) String size
+      Pageable pageable
     ) {
-    return serv.findSales(minDate, maxDate, page, size);
+    return serv.findSales(minDate, maxDate, pageable);
   }
 
   @GetMapping("/{id}/notification")
