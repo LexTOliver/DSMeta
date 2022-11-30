@@ -9,7 +9,7 @@ O cliente contrói uma interface web simples com responsividade. A página acess
 Feito com base nas aulas do canal <a href="https://www.youtube.com/@DevSuperior">DevSuperior</a>
 
 
-## Instalação
+## Instalação e Teste
 
 Clone do repositório no seu PC e execute os comandos no console:
 
@@ -24,11 +24,10 @@ mvn spring-boot:run
 
 ```bash
 #Na pasta do frontend
-npm install
-npm start
+yarn dev
 ```
 
-**Obs.:** tenha o NPM instalado na sua máquina!
+**Obs.:** tenha o Yarn instalado na sua máquina!
 
 ## Info
 
