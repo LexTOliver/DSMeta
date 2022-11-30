@@ -18,7 +18,10 @@ function notificar(id: number) {
 
 function NotificationBtn({saleId}: Props) {
   return (
-    <div className="dsmeta-red-btn" onClick={() => notificar(saleId)}>
+    // <div className="dsmeta-red-btn" onClick={() => notificar(saleId)}>
+      // <img src={notIcon} alt="Notificar" />
+    // </div>
+    <div className="dsmeta-red-btn">
       <img src={notIcon} alt="Notificar" />
     </div>
   )
